@@ -1,4 +1,4 @@
-Features
+Features: 
   Uses 2 IR sensors (left & right)
   Smooth line tracking with tunable speed control
   Adjustable motor trimming for straight movement
@@ -7,7 +7,7 @@ Features
 
 
   
-How It Works
+How It Works: 
 The robot continuously reads values from the IR sensors:
 
 Left Sensor	    Right Sensor  	  Action
@@ -18,14 +18,14 @@ Black          	Black             Stop
 
 
 
-Pin Configuration
+Pin Configuration: 
 
-IR Sensors
+IR Sensors - 
   Right IR Sensor → Pin 11
   Left IR Sensor → Pin 12
   
 Motor Driver (L298N or similar)
-Motor	Arduino Pin
+Motor	Arduino Pin - 
   ENA (Right Speed)	6
   IN1	7
   IN2	8
@@ -35,7 +35,7 @@ Motor	Arduino Pin
 
 
   
-Adjustable Parameters
+Adjustable Parameters: 
   #define MOTOR_SPEED   130
   #define TURN_SPEED    150
   #define RIGHT_TRIM    -10
@@ -45,7 +45,7 @@ Adjustable Parameters
 
 
   
-Getting Started
+Getting Started: 
   Connect all components as per the pin configuration
   Upload the code to Arduino
   Place the robot on a black line over a white surface
@@ -53,7 +53,7 @@ Getting Started
 
 
   
-Components Required
+Components Required: 
   Arduino UNO (or compatible)
   2 × IR Sensors
   L298N Motor Driver
@@ -63,7 +63,7 @@ Components Required
 
 
   
-Future Improvements
+Future Improvements: 
   Add PID control for smoother movement
   Integrate Bluetooth control
   Add obstacle detection
@@ -71,7 +71,7 @@ Future Improvements
 
 
   
-Logic Function Used
+Logic Function Used: 
 
   The rotateMotor() function controls:
 
@@ -80,5 +80,5 @@ Logic Function Used
 
 
   
-License
+License: 
 This project is open-source and free to use.
