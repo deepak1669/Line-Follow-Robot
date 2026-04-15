@@ -78,6 +78,7 @@ Logic Function Used:
   Motor direction (forward/backward)
   Speed using PWM signals
 
+Adjust the PWM value according to your motor's RPM and battery OUTPUT voltage
 
   
 License: 
